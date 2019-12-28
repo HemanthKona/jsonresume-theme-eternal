@@ -1,4 +1,4 @@
-# Boilerplate theme [![](https://badge.fury.io/js/jsonresume-theme-boilerplate.svg)](https://www.npmjs.org/package/jsonresume-theme-boilerplate)
+# jsonresume-theme-eternal 
 
 This is based on [the boilerplate theme](https://github.com/jsonresume/jsonresume-theme-boilerplate) for [JSON Resume](http://jsonresume.org/).
 
