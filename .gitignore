@@ -1,0 +1,9 @@
+node_modules/
+npm-debug.log
+
+public
+
+package-lock.json
+resume.json
+
+resume.md 

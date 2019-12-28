@@ -1,0 +1,15 @@
+{
+  "name": "jsonresume-theme-eternal",
+  "version": "0.0.10",
+  "description": "JSON Resume theme eternal",
+  "author": "Hemanth Kona",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hemanthkona/jsonresume-theme-eternal"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^2.0.0-alpha.4"
+  },
+  "main": "index.js"
+}

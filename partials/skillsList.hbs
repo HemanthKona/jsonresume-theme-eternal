@@ -1,0 +1,11 @@
+{{#if resume.skillsList.length}}
+<section id="skillsList">
+	<h2>Professional Summary</h2>
+    <hr>
+    <ul class="highlights">
+        {{#each resume.skillsList}}
+        <li>{{.}}</li>
+        {{/each}}
+    </ul>
+</section>
+{{/if}}

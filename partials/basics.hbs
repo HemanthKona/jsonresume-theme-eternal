@@ -1,0 +1,79 @@
+{{#resume.basics}}
+	<header>
+		<h1>{{name}}</h1>
+		<h2>{{label}}</h2>
+	</header>
+	<hr>
+	<section id="basics">
+		<div class="contact">
+		{{#if website}}
+		<div class="website">
+			<strong>Website</strong>
+			<a target="_blank" href="{{website}}">{{website}}</a>
+			
+		</div>
+		{{/if}}
+		{{#if email}}
+		<div class="email">
+			<strong>Email</strong>
+			{{email}}
+		</div>
+		{{/if}}
+		{{#if phone}}
+		<div class="phone">
+			<strong>Phone</strong>
+			{{phone}}
+		</div>
+		{{/if}}
+		</div>
+		{{#if summary}}
+		<div class="summary">
+			<h2>About me</h2>
+			<hr>
+			<p>{{summary}}</p>
+		</div>
+		{{/if}}
+		{{#if objective}}
+		<div class="objective">
+			<h2>Objective</h2>
+			<hr>
+			<p>{{objective}}</p>
+		</div>
+		{{/if}}
+		{{#location}}
+		<h3>Location</h3>
+		<section id="location">
+			{{#if address}}
+			<div class="address">
+				<strong>Address</strong>
+				{{address}}
+			</div>
+			{{/if}}
+			{{#if postalCode}}
+			<div class="postalCode">
+				<strong>Postal code</strong>
+				{{postalCode}}
+			</div>
+			{{/if}}
+			{{#if city}}
+			<div class="city">
+				<strong>City</strong>
+				{{city}}
+			</div>
+			{{/if}}
+			{{#if countryCode}}
+			<div class="countryCode">
+				<strong>Country code</strong>
+				{{countryCode}}
+			</div>
+			{{/if}}
+			{{#if region}}
+			<div class="region">
+				<strong>Region</strong>
+				{{region}}
+			</div>
+			{{/if}}
+		</section>
+		{{/location}}
+	</section>
+{{/resume.basics}}

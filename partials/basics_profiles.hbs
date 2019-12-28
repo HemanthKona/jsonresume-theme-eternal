@@ -1,0 +1,30 @@
+{{#resume.basics}}
+	<section id="basics">
+		{{#if profiles.length}}
+		<h3>Profiles</h3>
+        <hr>
+		<section id="profiles">
+			{{#each profiles}}
+			<div class="item">
+				{{#if network}}
+				<strong class="network">
+					{{network}}
+				</strong>
+				{{/if}}
+				{{#if username}}
+				<div class="username">
+					
+					<a target="_blank" href="{{url}}">{{url}}</a>
+				</div>
+				{{/if}}
+				{{#if url}}
+				{{!-- <div class="url">
+					<a target="_blank" href="{{url}}">Link</a>
+				</div> --}}
+				{{/if}}
+			</div>
+			{{/each}}
+		</section>
+		{{/if}}
+	</section>
+{{/resume.basics}}

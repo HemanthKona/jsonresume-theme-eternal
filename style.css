@@ -1,0 +1,127 @@
+:root {
+	--primary-color: #515151;
+	--primary-color-dark: #717171;
+	--primary-color-darker: #656565;
+	--text-primary-color: #555555;
+
+	--primary-line-color: #b1b8ba; 
+}
+
+body {
+	background: #fff;
+	font: 15px Arial, Helvetica, sans-serif;
+	line-height: 1.4;
+	margin: 50px 0;
+	margin-bottom: 100px;
+	color: var(--text-primary-color);
+	text-align: justify;
+	padding: 10px 50px;
+}
+
+/* a {
+	color: var(--primary-colorprimar);
+}
+
+a:hover {
+	color: var(--primary-color-darker);
+} */
+
+em {
+	color: #999;
+}
+
+hr {
+	color: var(--primary-line-color)
+}
+
+h1 {
+	color: var(--primary-color);
+}
+
+h2 {
+	color: var(--primary-color-dark);
+}
+
+h3 {
+	color: var(--primary-color-darker)
+}
+
+p {
+	line-height: 1.4;
+}
+
+ul {
+	margin-bottom: 0;
+}
+
+header {
+	color: var(--primary-color);
+}
+
+section {
+	margin-bottom: 2em;
+}
+
+blockquote {
+	margin: 0;
+	margin-bottom: 1em;
+}
+
+.item {
+	margin-bottom: 1em;
+}
+
+.summary {
+	color: var(--text-primary-color);
+}
+
+.date {
+	float: right;
+}
+
+#resume {
+	margin: 0 auto;
+	max-width: 960px;
+	padding: 0 20px;
+}
+
+#basics {
+	color: var(--primary-color);
+}
+
+#skillsList {
+	color: var(--primary-color);
+}
+
+#work {
+	color: var(--primary-color);
+}
+
+#volunteer {
+	color: var(--primary-color);
+}
+
+#education {
+	color: var(--primary-color);
+}
+
+#awards {
+	color: var(--primary-color);
+}
+
+#publications {
+	color: var(--primary-color);
+}
+
+#skills {
+	color: var(--primary-color);
+}
+
+#languages {
+	color: var(--primary-color);
+}
+
+#interests {
+	color: var(--primary-color);
+}
+
