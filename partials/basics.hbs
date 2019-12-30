@@ -26,10 +26,16 @@
 		</div>
 		{{/if}}
 		</div>
+		
 		{{#if summary}}
 		<div class="summary">
 			<h2>About me</h2>
 			<hr>
+			{{#if quote}}
+			<blockquote class="quote">
+				{{quote}}
+			</blockquote>
+			{{/if}}
 			<p>{{summary}}</p>
 		</div>
 		{{/if}}

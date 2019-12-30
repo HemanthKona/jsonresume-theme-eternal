@@ -63,8 +63,11 @@ section {
 }
 
 blockquote {
-	margin: 0;
-	margin-bottom: 1em;
+	color: var(--primary-color);
+	margin: 10px;
+	padding: 10px;
+	font-size: 14px;
+	border-left: 2px solid var(--primary-color);
 }
 
 .item {
@@ -89,7 +92,11 @@ blockquote {
 	color: var(--primary-color);
 }
 
-#skillsList {
+#basics_skills p {
+	margin: 0;
+}
+
+#basics_skillsList {
 	color: var(--primary-color);
 }
 
@@ -125,3 +132,7 @@ blockquote {
 	color: var(--primary-color);
 }
 
+#footer {
+	color: var(--text-primary-color);
+	font-size: 0.9em;
+}

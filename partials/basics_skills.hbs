@@ -1,0 +1,41 @@
+{{#if resume.basics.skills}}
+<section id="basics_skills">
+	<h2>Skills</h2>
+    <hr>
+    {{#if resume.basics.skills.expert.length}}
+        <p><strong>Expert: </strong> 
+        {{#each resume.basics.skills.expert as |item index|}}
+            {{item}}{{#unless @last}},{{/unless}}
+        {{/each}} 
+        </p>
+    {{/if}}
+    {{#if resume.basics.skills.advanced.length}}
+        <p><strong>Advanced: </strong> 
+        {{#each resume.basics.skills.advanced as |item index|}}
+            {{item}}{{#unless @last}},{{/unless}}
+        {{/each}} 
+        </p>
+    {{/if}}
+    {{#if resume.basics.skills.intermediate.length}}
+        <p><strong>Intermediate: </strong> 
+        {{#each resume.basics.skills.intermediate as |item index|}}
+            {{item}}{{#unless @last}},{{/unless}}
+        {{/each}} 
+        </p>
+    {{/if}}
+    {{#if resume.basics.skills.interested.length}}
+        <p><strong>Interested:</strong> 
+        {{#each resume.basics.skills.interested as |item index|}}
+            {{item}}{{#unless @last}},{{/unless}}
+        {{/each}} 
+        </p>
+    {{/if}}
+    {{#if resume.basics.skills.tools.length}}
+        <p><strong>Tools: </strong> 
+        {{#each resume.basics.skills.tools as |item index|}}
+            {{item}}{{#unless @last}},{{/unless}}
+        {{/each}} 
+        </p>
+    {{/if}}
+</section>
+{{/if}}
