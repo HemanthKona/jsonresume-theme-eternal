@@ -136,3 +136,19 @@ blockquote {
 	color: var(--text-primary-color);
 	font-size: 0.9em;
 }
+
+@media print {    
+	@page {
+		margin: 20px;
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
+
+	header h2 {
+		font-size: 1em;
+	}
+
+    seciton {		
+        break-before: always;
+	}
+}
