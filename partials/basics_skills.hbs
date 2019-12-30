@@ -23,6 +23,13 @@
         {{/each}} 
         </p>
     {{/if}}
+    {{#if resume.basics.skills.databases.length}}
+        <p><strong>Databases: </strong> 
+        {{#each resume.basics.skills.databases as |item index|}}
+            {{item}}{{#unless @last}},{{/unless}}
+        {{/each}} 
+        </p>
+    {{/if}}
     {{#if resume.basics.skills.interested.length}}
         <p><strong>Interested:</strong> 
         {{#each resume.basics.skills.interested as |item index|}}
