@@ -137,18 +137,17 @@ blockquote {
 	font-size: 0.9em;
 }
 
-@media print {    
-	@page {
-		margin: 20px;
-		margin-top: 60px;
-		margin-bottom: 60px;
+@media print {
+	body {
+		margin: 0;
 	}
 
-	header h2 {
-		font-size: 1em;
+	@page{
+		margin-top: 40px;
+		margin-bottom: 40px;
 	}
 
-    seciton {		
-        break-before: always;
+	#basics_skills {
+		page-break-after: always;
 	}
 }
