@@ -147,6 +147,10 @@ blockquote {
 		margin-bottom: 40px;
 	}
 
+	header h2 {
+		font-size: 1em;
+	}
+
 	#basics_skills {
 		page-break-after: always;
 	}
