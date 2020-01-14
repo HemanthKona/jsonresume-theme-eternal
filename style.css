@@ -76,10 +76,17 @@ blockquote {
 
 .summary {
 	color: var(--text-primary-color);
+	float: left;
 }
 
 .date {
 	float: right;
+}
+
+.col-50 {
+	width: 50%;
+	float: left;
+	position: relative;
 }
 
 #resume {

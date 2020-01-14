@@ -6,30 +6,34 @@
 	<hr>
 	<section id="basics">
 		<div class="contact">
-		{{#if website}}
-		<div class="website">
-			<strong>Website</strong>
-			<a target="_blank" href="{{website}}">{{website}}</a>
-		</div>
-		{{/if}}
-		{{#if github}}
-		<div class="website">
-			<strong>Github</strong>
-			<a target="_blank" href="{{github}}">{{github}}</a>
-		</div>
-		{{/if}}
-		{{#if email}}
-		<div class="email">
-			<strong>Email</strong>
-			{{email}}
-		</div>
-		{{/if}}
-		{{#if phone}}
-		<div class="phone">
-			<strong>Phone</strong>
-			{{phone}}
-		</div>
-		{{/if}}
+			<div class="col-50">
+				{{#if email}}
+				<div class="email">
+					<strong>Email</strong>
+					{{email}}
+				</div>
+				{{/if}}
+				{{#if phone}}
+				<div class="phone">
+					<strong>Phone</strong>
+					{{phone}}
+				</div>
+				{{/if}}
+			</div>
+			<div class="col-50">
+				{{#if website}}
+				<div class="website">
+					<strong>Website</strong>
+					<a target="_blank" href="{{website}}">{{website}}</a>
+				</div>
+				{{/if}}
+				{{#if github}}
+				<div class="website">
+					<strong>Github</strong>
+					<a target="_blank" href="{{github}}">{{github}}</a>
+				</div>
+				{{/if}}
+			</div>
 		</div>
 		
 		{{#if summary}}
