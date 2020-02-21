@@ -1,10 +1,10 @@
 :root {
-	--primary-color: #515151;
-	--primary-color-dark: #717171;
-	--primary-color-darker: #656565;
-	--text-primary-color: #555555;
-
-	--primary-line-color: #b1b8ba; 
+	--primary-color: #008ba3;
+	--primary-color-dark: #005d74;
+	--primary-color-light: #005d74;
+	--primary-color-darker: #00838f;
+	
+	--text-primary-color: #333;
 }
 
 body {
@@ -18,36 +18,40 @@ body {
 	padding: 10px 50px;
 }
 
-/* a {
-	color: var(--primary-colorprimar);
+a {
+	color: var(--primary-color);
 }
 
 a:hover {
-	color: var(--primary-color-darker);
-} */
+	color: var(--primary-color-dark);
+}
 
 em {
 	color: #999;
 }
 
 hr {
-	color: var(--primary-line-color)
+	border: 1px solid var(--primary-color)
 }
 
 h1 {
 	color: var(--primary-color);
+	margin: 0;
+	margin-left: 8px;
 }
 
 h2 {
 	color: var(--primary-color-dark);
+	margin-left: 8px;
 }
 
 h3 {
-	color: var(--primary-color-darker)
+	color: var(--primary-color-darker);
 }
 
 p {
 	line-height: 1.4;
+	margin-left: 8px;
 }
 
 ul {
@@ -56,22 +60,33 @@ ul {
 
 header {
 	color: var(--primary-color);
+	padding-left: 8px;
 }
+
+/* header h2 {
+	margin-top: 4px;
+    margin-left: 8px;
+} */
 
 section {
 	margin-bottom: 2em;
 }
 
+section.item {
+	padding-left: 0 8px;
+}
+
 blockquote {
 	color: var(--primary-color);
-	margin: 10px;
-	padding: 10px;
+	margin: 8px;
+	padding: 8px;
 	font-size: 14px;
 	border-left: 2px solid var(--primary-color);
 }
 
 .item {
 	margin-bottom: 1em;
+	margin-left: 8px;
 }
 
 .summary {
@@ -96,51 +111,60 @@ blockquote {
 }
 
 #basics {
-	color: var(--primary-color);
+	
+}
+
+#basics .contact {
+	margin-left: 8px;
+}
+
+#basics_skills {
+	
 }
 
 #basics_skills p {
-	margin: 0;
+	margin: 2px 0;
+	padding-left: 8px;
 }
 
 #basics_skillsList {
-	color: var(--primary-color);
+	color: var(--text-primary-color);
 }
 
 #work {
-	color: var(--primary-color);
+	color: var(--text-primary-color);
 }
 
 #volunteer {
-	color: var(--primary-color);
+	color: var(--text-primary-color);
 }
 
 #education {
-	color: var(--primary-color);
+	color: var(--text-primary-color);
 }
 
 #awards {
-	color: var(--primary-color);
+	color: var(--text-primary-color);
 }
 
 #publications {
-	color: var(--primary-color);
+	color: var(--text-primary-color);
 }
 
 #skills {
-	color: var(--primary-color);
+	color: var(--text-primary-color);
 }
 
 #languages {
-	color: var(--primary-color);
+	color: var(--text-primary-color);
 }
 
 #interests {
-	color: var(--primary-color);
+	color: var(--text-primary-color);
 }
 
 #footer {
-	color: var(--text-primary-color);
+	color: var(--text-text-primary-color);
 	font-size: 0.9em;
 }
 
