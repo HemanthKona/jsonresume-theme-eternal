@@ -119,7 +119,7 @@ blockquote {
 }
 
 #basics_skills {
-	
+	clear: left;
 }
 
 #basics_skills p {
