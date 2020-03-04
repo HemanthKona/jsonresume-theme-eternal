@@ -4,9 +4,9 @@
 	<hr>
 	{{#each resume.work}}
 	<div class="item">
-		{{#if company}}
-		<h3 class="name">
-			{{company}}
+		{{#if postion}}
+		<h3 class="position">
+			{{postion}}
 		</h3>
 		{{/if}}
 		<div class="date">
@@ -25,9 +25,9 @@
 			</span>
 			{{/if}}
 		</div>
-		{{#if position}}
-		<div class="position">
-			{{position}}
+		{{#if company}}
+		<div class="company">
+			{{company}}
 		</div>
 		{{/if}}
 		{{#if website}}

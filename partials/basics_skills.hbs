@@ -30,6 +30,13 @@
         {{/each}} 
         </p>
     {{/if}}
+    {{#if resume.basics.skills.design.length}}
+        <p><strong>Design: </strong> 
+        {{#each resume.basics.skills.design as |item index|}}
+            {{item}}{{#unless @last}},{{/unless}}
+        {{/each}} 
+        </p>
+    {{/if}}
     {{#if resume.basics.skills.interested.length}}
         <p><strong>Interested:</strong> 
         {{#each resume.basics.skills.interested as |item index|}}
