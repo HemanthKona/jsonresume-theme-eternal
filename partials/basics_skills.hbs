@@ -37,6 +37,13 @@
         {{/each}} 
         </p>
     {{/if}}
+    {{#if resume.basics.skills.cloud.length}}
+        <p><strong>Cloud: </strong> 
+        {{#each resume.basics.skills.cloud as |item index|}}
+            {{item}}{{#unless @last}},{{/unless}}
+        {{/each}} 
+        </p>
+    {{/if}}
     {{#if resume.basics.skills.interested.length}}
         <p><strong>Interested:</strong> 
         {{#each resume.basics.skills.interested as |item index|}}
