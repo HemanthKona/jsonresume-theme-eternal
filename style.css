@@ -143,6 +143,10 @@ blockquote {
 	color: var(--text-primary-color);
 }
 
+#certificates {
+	color: var(--text-primary-color);
+}
+
 #awards {
 	color: var(--text-primary-color);
 }
