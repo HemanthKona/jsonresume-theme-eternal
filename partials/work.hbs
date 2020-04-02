@@ -47,6 +47,13 @@
 			{{/each}}
 		</ul>
 		{{/if}}
+		{{#if technologies.length}}
+		<ul class="highlights">
+			{{#each technologies as |item index|}}
+				{{item}}{{#unless @last}},{{/unless}}
+			{{/each}} 
+		</ul>
+		{{/if}}
 	</div>
 	{{/each}}
 </section>
