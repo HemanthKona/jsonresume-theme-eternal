@@ -5,19 +5,13 @@
 	<div class="line"></div>
 	{{#each resume.projects}}
 	<div class="item">
-		{{#if title}}
-		<div class="title">
-			<h3>{{title}}</h3>
-		</div>
-		{{/if}}
-		{{#if date}}
-		<div class="date">
-			{{date}}
-		</div>
-		{{/if}}
-		{{#if institution}}
-		<div class="institution">
-			{{institution}}
+		{{#if name}}
+		<div class="name">
+			{{#if website}}
+                <a href="{{website}}"><h3>{{name}}</h3></a>
+            {{else}}
+                <h3>{{name}}</h3>
+            {{/if}}
 		</div>
 		{{/if}}
 		{{#if summary}}
